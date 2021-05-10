@@ -76,6 +76,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+}
+
+.hero-section-button:hover,
+.hero-section-button:focus {
   background-color: #2196f3;
   color: #ffffff;
 }
