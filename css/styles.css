@@ -8,6 +8,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
+  color: #212121;
 }
 
 /* Header Section */
@@ -164,7 +165,6 @@ body {
 
 /*Button section*/
 .menu-button-pf {
-  font-family: Roboto;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -175,21 +175,17 @@ body {
 
 /*Link section*/
 .link-title-pf {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: bold;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
 }
 
 .link-subtitle-pf {
-  font-family: Roboto;
-  font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   letter-spacing: 0.03em;
   color: #757575;
 }
