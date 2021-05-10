@@ -75,6 +75,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 /* Hero section end*/
@@ -173,13 +174,20 @@ body {
 /*------------PORTFOLIO SECTION--------*/
 
 /*Button section*/
-.menu-button-pf {
+.menu-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+  cursor: pointer;
+}
+
+.menu-button:hover,
+.menu-button:focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 /*Link section*/
