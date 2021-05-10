@@ -48,13 +48,6 @@ body {
   color: #2196f3;
 }
 
-.contact-list-item {
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
-
 /* Header end*/
 
 /* Hero section */
@@ -76,6 +69,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
+  color: #ffffff;
 }
 
 .hero-section-button:hover,
@@ -160,15 +154,16 @@ body {
   color: #2196f3;
 }
 
-.address-section {
+.address-footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  color: #757575;
 }
 
-.address-section:hover,
-.address-section:focus {
+.address-footer:hover,
+.address-footer:focus {
   color: #2196f3;
 }
 
