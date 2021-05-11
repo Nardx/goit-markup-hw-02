@@ -13,7 +13,7 @@ body {
 
 /* Header Section */
 
-.logo-top {
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -51,6 +51,11 @@ body {
 /* Header end*/
 
 /* Hero section */
+
+.hero-section {
+  background-color: #2f303a;
+}
+
 .hero-section-title {
   font-weight: 900;
   font-size: 44px;
@@ -58,6 +63,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
+  color: #ffffff;
 }
 
 .hero-section-button {
@@ -70,6 +76,7 @@ body {
   letter-spacing: 0.06em;
   cursor: pointer;
   color: #ffffff;
+  background-color: #2196f3;
 }
 
 .hero-section-button:hover,
@@ -143,21 +150,17 @@ body {
 
 /*Footer section */
 
-.logo-bot {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
+.footer-section {
+  background-color: #2f303a;
 }
 
 .address-footer {
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: #ffffff;
 }
 
 .address-footer:hover,
@@ -168,6 +171,9 @@ body {
 /*t*/
 .black {
   color: #000000;
+}
+.link-color {
+  color: #2196f3;
 }
 
 /*------------PORTFOLIO SECTION--------*/
