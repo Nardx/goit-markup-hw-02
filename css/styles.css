@@ -26,7 +26,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color2);
 }
 
 .menu-link {
@@ -79,8 +79,14 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
+  background-color: var(--accent-color2);
   color: var(--accent-color4);
-  background-color: #2196f3;
+}
+
+.hero-section-button:hover,
+.hero-section-button:focus {
+  background-color: #188ce8;
+  color: var(--accent-color4);
 }
 
 /* Hero section end*/
@@ -157,8 +163,16 @@ body {
 
 /*text-color*/
 
-.link-color {
+.link-menu-color {
   color: var(--accent-color2);
+}
+
+.logo-color {
+  color: #000000;
+}
+
+.logo-color2 {
+  color: #ffffff;
 }
 
 /*------------PORTFOLIO SECTION--------*/
@@ -176,7 +190,7 @@ body {
 
 .menu-button:hover,
 .menu-button:focus {
-  background-color: #2196f3;
+  background-color: var(--accent-color2);
   color: var(--accent-color4);
 }
 
