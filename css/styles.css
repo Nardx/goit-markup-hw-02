@@ -70,9 +70,6 @@ body {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   cursor: pointer;
   color: #ffffff;
@@ -84,7 +81,6 @@ body {
 /* Info section */
 
 .info-setion-title {
-  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -103,8 +99,7 @@ body {
 
 /* About section */
 
-.about-section-title {
-  font-weight: 700;
+.heading2-title {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
@@ -114,15 +109,6 @@ body {
 /* About section end */
 
 /*Team section */
-
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.16;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-}
 
 .team-section-title {
   font-weight: 500;
