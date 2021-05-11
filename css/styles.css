@@ -1,3 +1,10 @@
+:root {
+  --accent-color: #212121;
+  --accent-color2: #2196f3;
+  --accent-color3: #757575;
+  --accent-color4: #ffffff;
+}
+
 .list {
   list-style: none;
 }
@@ -8,7 +15,7 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  color: #212121;
+  color: var(--accent-color);
 }
 
 /* Header Section */
@@ -27,12 +34,12 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--accent-color);
 }
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #2196f3;
+  color: var(--accent-color2);
 }
 
 .contact-link {
@@ -40,12 +47,12 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--accent-color3);
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #2196f3;
+  color: var(--accent-color2);
 }
 
 /* Header end*/
@@ -63,7 +70,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--accent-color4);
 }
 
 .hero-section-button {
@@ -72,7 +79,7 @@ body {
   line-height: 1.87;
   letter-spacing: 0.06em;
   cursor: pointer;
-  color: #ffffff;
+  color: var(--accent-color4);
   background-color: #2196f3;
 }
 
@@ -85,14 +92,14 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #212121;
+  color: var(--accent-color);
 }
 
 .info-section-subtitle {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--accent-color3);
 }
 
 /* Info section end */
@@ -104,7 +111,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--accent-color);
 }
 /* About section end */
 
@@ -145,15 +152,13 @@ body {
 
 .address-footer:hover,
 .address-footer:focus {
-  color: #2196f3;
+  color: var(--accent-color2);
 }
 
-/*t*/
-.black {
-  color: #000000;
-}
+/*text-color*/
+
 .link-color {
-  color: #2196f3;
+  color: var(--accent-color2);
 }
 
 /*------------PORTFOLIO SECTION--------*/
@@ -165,14 +170,14 @@ body {
   line-height: 1.62;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #212121;
+  color: var(--accent-color);
   cursor: pointer;
 }
 
 .menu-button:hover,
 .menu-button:focus {
   background-color: #2196f3;
-  color: #ffffff;
+  color: var(--accent-color4);
 }
 
 /*Link section*/
@@ -181,7 +186,7 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: #212121;
+  color: var(--accent-color);
 }
 
 .link-subtitle-pf {
@@ -189,5 +194,5 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--accent-color3);
 }
